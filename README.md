@@ -1,6 +1,6 @@
 # microbit-v2-samples
 
-[![Native Build Status](https://github.com/lancaster-university/microbit-v2-samples/actions/workflows/build.yml/badge.svg)](https://github.com/lancaster-university/microbit-v2-samples/actions/workflows/build.yml) [![Docker Build Status](https://github.com/lancaster-university/microbit-v2-samples/actions/workflows/docker-image.yml/badge.svg)](https://github.com/lancaster-university/microbit-v2-samples/actions/workflows/docker-image.yml)
+[![Native Build Status](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/build.yml/badge.svg)](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/build.yml) [![Docker Build Status](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/docker-image.yml)
 
 This repository provides the necessary tooling to compile a C/C++ CODAL program for the micro:bit V2 and generate a HEX file that can be downloaded to the device.
 
@@ -28,7 +28,7 @@ We use Ubuntu Linux for most of our tests. You can also install these tools easi
 For backwards compatibility with [microbit-samples](https://github.com/lancaster-university/microbit-samples) users, we also provide a yotta target for this repository.
 
 ## Docker
-You can use the [Dockerfile](https://github.com/lancaster-university/microbit-v2-samples/blob/master/Dockerfile) provided to build the samples, or your own project sources, without installing additional dependencies.
+You can use the [Dockerfile](https://github.com/AustinATTS/small-bit-of-toast/blob/master/Dockerfile) provided to build the samples, or your own project sources, without installing additional dependencies.
 
 Run the following command to build the image locally; the .bin and .hex files from a successful compile will be placed in a new `out/` directory:
 
