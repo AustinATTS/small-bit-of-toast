@@ -1,4 +1,4 @@
-# microbit-v2-samples
+# small-bit-of-toast
 
 [![Native Build Status](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/build.yml/badge.svg)](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/build.yml) [![Docker Build Status](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AustinATTS/small-bit-of-toast/actions/workflows/docker-image.yml)
 
