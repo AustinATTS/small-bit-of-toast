@@ -44,8 +44,9 @@ To omit the final output stage (for CI, for example) run without the `--output` 
 
 # Building
 - Clone this repository
-- In the root of this repository type `python build.py`
-- The hex file will be built `MICROBIT.hex` and placed in the root folder.
+- In the `projects` folder add your different project directories.
+- Inside your project directory run `../build.sh` to compile the entire directory, alternatly pass in the specific files to be built e.g., `../build.sh main.cpp helpers.h helpers.cpp`
+- The hex file will be built `main.hex` (or the name of directory) and placed inside the directory where the script is called.
 
 # Developing
 You will find a simple main.cpp in the `source` folder which you can edit. CODAL will also compile any other C/C++ header files our source files with the extension `.h .c .cpp` it finds in the source folder.
